@@ -31,6 +31,8 @@ namespace yn_virtual_esp
             InitializeComponent();
 
         }
+        public string key;
+        public string url;
         int p;
             
         private void dispatcherTimer_Tick(object sender, EventArgs e)
@@ -43,7 +45,9 @@ namespace yn_virtual_esp
             datta[1] =c2;
             atur2(datta);
             p = p + 1;
-            timr.Content = Convert.ToString(p); 
+            timr.Content = Convert.ToString(p);
+            string a = " ["+datta[0] +"/"+ datta[1]+"] ";
+            t1.Content = a + t1.Content;
         }
         
         public void atur2(string[] data)
@@ -51,20 +55,27 @@ namespace yn_virtual_esp
             WebClient objWebClient = new WebClient();
 
             NameValueCollection objNameValueCollection = new NameValueCollection();
-            objNameValueCollection.Add("api_key", "X61ETURDIY505A9Q");
+            objNameValueCollection.Add("api_key", key);
             objNameValueCollection.Add("field1", data[0]);
             objNameValueCollection.Add("field2", data[1]);
     
-            byte[] bytes = objWebClient.UploadValues("https://api.thingspeak.com/update", "POST", objNameValueCollection);
+            byte[] bytes = objWebClient.UploadValues(url, "POST", objNameValueCollection);
             //MessageBox.Show(Encoding.ASCII.GetString(bytes));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            url = bok1.Text;
+            key = box2.Text;
+            l1.Content = url;
+            l2.Content = key;
+
             dispatcherTimer.Tick += dispatcherTimer_Tick;
             dispatcherTimer.Interval = new TimeSpan(0, 0, 5);
             dispatcherTimer.Start();
+
             p = 0;
+
             btst.IsEnabled = true;
             btml.IsEnabled = false;
         }
@@ -75,6 +86,16 @@ namespace yn_virtual_esp
             timr.Content = "0";
             btst.IsEnabled = false;
             btml.IsEnabled = true;
+        }
+
+        private void box2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
 
     }
