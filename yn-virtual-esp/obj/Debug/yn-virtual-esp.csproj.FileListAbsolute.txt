@@ -1,0 +1,13 @@
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\bin\Debug\yn-virtual-esp.exe.config
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\bin\Debug\yn-virtual-esp.exe
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\bin\Debug\yn-virtual-esp.pdb
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn-virtual-esp.csprojResolveAssemblyReference.cache
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\MainWindow.baml
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\MainWindow.g.cs
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\App.g.cs
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn-virtual-esp_MarkupCompile.cache
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn-virtual-esp.g.resources
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn_virtual_esp.Properties.Resources.resources
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn-virtual-esp.csproj.GenerateResource.Cache
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn-virtual-esp.exe
+c:\users\yayan\documents\visual studio 2013\Projects\yn-virtual-esp\yn-virtual-esp\obj\Debug\yn-virtual-esp.pdb
