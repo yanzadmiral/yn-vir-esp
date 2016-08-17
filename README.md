@@ -1,2 +1,2 @@
 # yn-vir-esp
-buat yang ga punya modul wifi..hahaha... 
+komunikasi arduino dengan komputer melalui serial. dan upload data ke mysql localhost.
